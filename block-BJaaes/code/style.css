@@ -1,0 +1,147 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main CSS */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to right, #7f53ac 0, #657ced 100%);
+}
+* {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.75rem;
+  width: 100%;
+  margin-top: 1rem;
+  border: none;
+  background-color: salmon;
+  border-radius: 5px;
+}
+
+body {
+  margin-top: 2rem;
+}
+
+input {
+  padding: 0.75rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+select {
+  padding: 0.5rem 1rem;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+p {
+  padding-top: 1rem;
+}
+.container header {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.container form {
+  padding: 1rem;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8rem;
+}
+label {
+  padding-bottom: 5px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: #79d4a1;
+  position: relative;
+}
+.form-control.success {
+  position: relative;
+}
+.form-control.success::before {
+  content: '✅';
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 66%;
+  transform: translateY(-50%);
+  z-index: 99;
+  font-size: 0.75rem;
+}
+.form-control.error input {
+  border-color: #ed755f;
+}
+.form-control.error {
+  position: relative;
+}
+.form-control.error::before {
+  content: '❌';
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 66%;
+  transform: translateY(-50%);
+  z-index: 99;
+  font-size: 0.75rem;
+}
+
+small {
+  color: #ed755f;
+  padding-top: 0.25rem;
+}

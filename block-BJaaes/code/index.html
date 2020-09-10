@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Handeling Forms 👇</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Create Account</h1>
+      </header>
+      <form>
+        <div class="form-control">
+          <label for="text">Username</label>
+          <input type="text" name="username" placeholder="arya" />
+        </div>
+        <div class="form-control">
+          <label for="text">Name</label>
+          <input type="text" name="name" placeholder="Arya Stark" />
+        </div>
+        <div class="form-control">
+          <label for="text">Email</label>
+          <input
+            id="text"
+            type="email"
+            name="email"
+            placeholder="arya@stark.com"
+          />
+          <small>Email is not valid!</small>
+        </div>
+        <div class="form-control error">
+          <label for="text">Phone Number</label>
+          <input
+            id="password"
+            type="tel"
+            name="phone"
+            placeholder="Enter your password"
+          />
+          <small></small>
+        </div>
+        <div class="form-control error">
+          <label for="text">Password</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+          />
+          <small></small>
+        </div>
+        <div class="form-control success">
+          <label for="text">Confirm Password</label>
+          <input
+            id="password"
+            type="password"
+            name="password-check"
+            placeholder="Confirm Password"
+          />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
