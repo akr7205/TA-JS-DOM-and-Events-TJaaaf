@@ -1,0 +1,19 @@
+writeCode
+
+## Memory Game
+
+Creating a memory game
+
+1. It will be a 4 x 4 grid with different cards
+2. When clicked on any of the card it will show an icon and you need to click on the second card
+3. When clicked on the second card, both icons will either match or not
+4. If it matches both cards will become green and if no match both cards will flip back
+5. To win this game you will have to remember where the location of the cards and make all the cards green
+6. You can use icons from https://heroicons.com/ or Font Awesome
+
+## Advanced Features
+
+1. Count the number of moves
+2. Calculate the time it took to win the game
+
+[Demo](https://memory-game-fend.herokuapp.com/)

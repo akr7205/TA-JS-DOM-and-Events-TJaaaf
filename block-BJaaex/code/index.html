@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practicing DOM tree and Selecting elements</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body>
+    <h1 id="test">Selecting Elements</h1>
+    <p>
+      The DOM allows us tomanupulate the content of the webpage. To manupulate
+      the element we need to first select the element.
+    </p>
+    <p>
+      All operations on the DOM start with the document object. That’s the main
+      “entry point” to DOM. From it we can access any node.
+    </p>
+    <img
+      src="https://images.pexels.com/photos/1632790/pexels-photo-1632790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+      alt="Tree"
+      width="300"
+    />
+    <h2>Topics</h2>
+    <ul class="topics">
+      <li class="list">document</li>
+      <li>document.body</li>
+      <li class="list">document.head</li>
+      <li id="test">document.title</li>
+      <li>querySelector</li>
+      <li class="list">querySelectorAll</li>
+    </ul>
+
+    <fieldset>
+      <legend>Fieldset</legend>
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="john.doe@gmail.com"
+      />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+
+      <p>
+        <input type="checkbox" name="remember" id="remember" checked />
+        <label for="remember">Remember me</label>
+      </p>
+
+      <input type="submit" />
+    </fieldset>
+    <script src="./script.js"></script>
+  </body>
+</html>
