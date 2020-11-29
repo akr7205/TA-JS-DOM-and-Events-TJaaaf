@@ -14,4 +14,4 @@ writeCode
 
 #### Final Output
 
-![Flip Box](./assets/calc.jpg)
+![Calculator](./assets/calculator.png)
