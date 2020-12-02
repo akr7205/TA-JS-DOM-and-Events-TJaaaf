@@ -1,6 +1,4 @@
-writeCode
-
-#### Different Input Elements
+#### Handling Different Input Elements
 
 1. Access the information from all these input elements in `index.html` inside `code` folder
 2. After filling up the form when you click on the submit button a modal should be visible
