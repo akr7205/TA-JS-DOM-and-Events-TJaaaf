@@ -1,5 +1,3 @@
-writeCode
-
 #### Create a chrome extension:
 
 1. Choose your own idea for the chrome extension
