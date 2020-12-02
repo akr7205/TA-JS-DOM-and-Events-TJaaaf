@@ -1,5 +1,3 @@
-writeCode
-
 #### Disco Grid
 
 1. Create 500 boxes of size (4rem and 4rem)
