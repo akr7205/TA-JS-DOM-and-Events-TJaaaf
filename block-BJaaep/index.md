@@ -1,5 +1,3 @@
-writeCode
-
 #### Flip Box
 
 1. There are two boxes each box contains 12 small boxes
