@@ -1,8 +1,8 @@
-writeCode
+### Memory Game
 
-## Memory Game
+Follow this article and make Memory Game with the following features.
 
-Creating a memory game
+[Article](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
 
 1. It will be a 4 x 4 grid with different cards
 2. When clicked on any of the card it will show an icon and you need to click on the second card
@@ -11,9 +11,7 @@ Creating a memory game
 5. To win this game you will have to remember where the location of the cards and make all the cards green
 6. You can use icons from https://heroicons.com/ or Font Awesome
 
-## Advanced Features
+### Advanced Features
 
 1. Count the number of moves
 2. Calculate the time it took to win the game
-
-[Demo](https://memory-game-fend.herokuapp.com/)
