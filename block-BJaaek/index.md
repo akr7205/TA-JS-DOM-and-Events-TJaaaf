@@ -1,5 +1,3 @@
-writeCode
-
 #### Random Color Generator
 
 1. Create two boxes with buttons in center
