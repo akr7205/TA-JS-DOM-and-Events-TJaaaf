@@ -1,6 +1,4 @@
-writeCode
-
-#### Form Validation Exercise
+#### Practice Form Validation
 
 Rules for form validation:
 
@@ -10,9 +8,7 @@ Rules for form validation:
 4. Email must be at least 6 characters
 5. Phone numbers can only be a number
 6. Length of phone number can't be less than 7
-7. Password must contain a number and a symbol
 8. Password and confirm password must be same.
-9. None of the field can be blank
 
 Messages for error:
 
@@ -20,7 +16,5 @@ Messages for error:
 2. You can't use number in the name field
 3. Not a valid email
 4. Phone number can only contain numbers
-5. Password must contain at least a symbol and a number
-6. `__` can not be blank
 
 Once the form is valid it should alert `User Added Successfully!`
