@@ -4,12 +4,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/6ad3ed723e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
   <title>Rock Paper and Scissors</title>
 </head>
 
 <body>
   <main>
-     <h1>Rock Paper and Scissors</h1>
+    <h1>Rock Paper and Scissors</h1>
+    <div class="container">
+      <div class="score">
+        Userscore:
+        <span class="user-score"></span>
+        Computerscore:
+        <span class="computer-score"></span>
+      </div>
+      <div class="user-choice text-center">User:<span class="user-icon"></span></div>
+      <div class="icons center user-btns">
+        <button class="button Rock"><i class="fa fa-hand-rock-o" aria-hidden="true" data-text="Rock"></i></button>
+        <button class="button Paper"><i class="fa fa-hand-paper-o" aria-hidden="true" data-text="Paper"></i> </button>
+        <button class="button Scissor"><i class="fa fa-hand-scissors-o" aria-hidden="true" data-text="Scissor"></i></button>
+      </div>
+      <div class="computer-choice text-center">Computer: <span class="computer-icon"></span></div>
+      <div class="icons center computer-btns">
+        <button class="button Rock"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></button>
+        <button class="button Paper"><i class="fa fa-hand-paper-o" aria-hidden="true"></i> </button>
+        <button class="button Scissor"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button>
+      </div>
+    </div>
+
+    <div class="final ">
+      <div class="result"></div>
+      <button class="reset">RESET</button>
+    </div>
   </main>
 
 
