@@ -5,6 +5,7 @@ let computerIcon = document.querySelector('.computer-icon');
 let userBtns = document.querySelector('.user-btns');
 let computerBtns = document.querySelector('.computer-btns');
 let result = document.querySelector('.result');
+let reset = document.querySelector('.reset');
 let pScore = 0;
 let cScore = 0;
 
@@ -12,7 +13,7 @@ userBtns.addEventListener('click', (e) => comparechoice(e));
 
 function comparechoice(e) {
     let pChioce = e.target.dataset.text;
-    let compChoice=generateComputerChoice()
+    let compChoice=generateComputerChoice();
     computerIcon.innerHTML = compChoice;
     console.log(pChioce);
     console.log(compChoice);
@@ -42,6 +43,8 @@ function getResult(pChioce,compChoice) {
         result.innerText = "Computer wins";
         cScore++;
       }
+      userscore.innerHTML= pScore;
+      computerscore.innerHTML=cScore;
 }
 
 function generateComputerChoice() {
@@ -60,4 +63,9 @@ function generateComputerChoice() {
     
   }
 
-
+reset.addEventListener('click', (e) => {
+  pScore=0;
+  cScore=0;
+  userscore.innerHTML= pScore;
+  computerscore.innerHTML=cScore;
+})
