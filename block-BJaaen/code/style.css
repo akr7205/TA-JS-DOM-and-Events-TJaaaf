@@ -170,10 +170,14 @@ margin-right: 0.5rem;
 .final{
     text-align: center;
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .result{
     margin-right: 12rem;
     color:black;
+    font-weight: 700;
 }
 .reset{
     padding: 0.5rem;
