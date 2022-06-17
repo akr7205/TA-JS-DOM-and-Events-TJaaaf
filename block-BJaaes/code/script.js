@@ -83,8 +83,8 @@ function setFail(input, message) {
     input.nextElementSibling.innerText = message;
     input.classList.add('fail');
     let parentElm = input.parentElement;
-    // let exclamationCircle=parentElm.querySelector('.fa-exclamation-circle');
-    // exclamationCircle.classList.add('visible');
+    let exclamationCircle=parentElm.querySelector('.fa-exclamation-circle');
+    exclamationCircle.classList.add('visible');
 }
 function setSuccess(input) {
     let parentElm = input.parentElement;
@@ -101,6 +101,9 @@ function remove(input) {
     let parentElm = input.parentElement;
     let checkCircle=parentElm.querySelector('.fa-check-circle');
     checkCircle.classList.remove('visible');
+    let exclamationCircle=parentElm.querySelector('.fa-exclamation-circle');
+    exclamationCircle.classList.remove('visible');
+    
     
 
 }
